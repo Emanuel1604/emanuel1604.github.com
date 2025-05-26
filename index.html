@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MINECRAFT.DOCKAT</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+    }
+
+    header {
+      background-color: #262626;
+      padding: 1em;
+      text-align: center;
+      border-bottom: 4px solid #2ecc71;
+    }
+
+    header img {
+      height: 100px;
+    }
+
+    h1 {
+      margin: 0.5em 0 0;
+      font-size: 1.5em;
+      color: #2ecc71;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      padding: 1em;
+    }
+
+    nav a {
+      color: #2ecc71;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      color: #27ae60;
+    }
+
+    .content {
+      padding: 2em;
+    }
+
+    .section {
+      display: none;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    .blog {
+      background-color: #2b2b2b;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1em;
+    }
+
+    .card {
+      background-color: #3a3a3a;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 0 5px #000;
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+      margin-top: 10px;
+      border: none;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOPR3B6aei6fOyMJiWWWHcfJrmJKqELlsxQw&s" alt="Minecraft Dockat Logo" />
+    <h1>MINECRAFT.DOCKAT</h1>
+  </header>
+
+  <nav>
+    <a onclick="showSection('blog')">Inicio</a>
+    <a onclick="showSection('ayuda')">Ayuda</a>
+    <a onclick="showSection('skins')">Skins</a>
+    <a onclick="showSection('construcciones')">Construcciones</a>
+    <a onclick="showSection('mecanismos')">Mecanismos</a>
+  </nav>
+
+  <div class="content">
+    <div id="blog" class="section active blog">
+      <h2>Bienvenido a MINECRAFT.DOCKAT</h2>
+      <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000964/a28a81253e919298beab2295e39a56b7a5140ef15abdb56135655e5c221b2a3a" alt=" " style="width:20%; border-radius: 20px;"/>
+            <h1>QUE ES MINECRAFT? </h1>
+        <p>Minecraft es un juego formado por bloques, criaturas y comunidades. La elección es tuya: sobrevivir a la noche o crear una obra de arte. 
+        Pero, si te abruma tener que explorar un nuevo y vasto mundo por tu cuenta, ¡no temas! ¡Vamos a explorar de qué va Minecraft!</p>
+        <h1>CUAL ES EL OBJETIVO?</h1>
+        <P>No hay un objetivo definido en Minecraft, puedes jugar cómo quieras! Por eso se le suele llamar "juego sandbox": puedes hacer montones de cosas y hay montones de formas de jugar.
+         Si tu pasión es la creatividad, puedes usar los bloques para construir todo lo que puedas imaginar.
+         Si lo tuyo es el coraje, puedes explorar el mundo y enfrentarte a arriesgados desafíos.
+         Los bloques pueden romperse, fabricarse, colocarse para dar forma al paisaje o usarse para construir creaciones fantásticas.
+         Dependiendo de cómo quieras jugar, podrás luchar contra las criaturas o entablar amistad con ellas. El mundo de Minecraft permite vivir aventuras épicas, meditar tranquilamente y todo lo demás.
+       ¡Puedes incluso compartir tus creaciones con otros jugadores o jugar en mundos comunitarios!</P>
+      <p>
+        Esta página ha sido creada como un punto de encuentro para todos los amantes de Minecraft. Aquí encontrarás ayuda paso a paso, ideas de construcciones creativas, skins únicas y mecanismos innovadores con videos para que puedas aprender fácilmente. ¡Explora y lleva tu experiencia de juego al siguiente nivel!
+      </p>
+      <iframe width="560" height="3000" src="https://www.youtube.com/embed/A4I4OACrymM" title="Minecraft Gameplay Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
+       <h2>!Conquista el neder y Mas juega minecraft hoy!</h2>
+            <p>Adentrate en mundo lleno de aventuras,
+            peligros y recompensas. Construye,explora y lucha por tu supervivencia!
+            unete a la accion ahora y vive la experiencia como nunca ante"MInecraft te espera"</p>
+    </div>
+
+    <div id="ayuda" class="section">
+      <h2>Ayuda</h2>
+      <h1>¿como se juega?</h1>
+      <br>
+      <p><h2>¡Reúnete con tus amigos!</h2>
+  Jugar a Minecraft en modo de un solo jugador es divertido, ¡pero jugar con otras personas también lo es! Podréis planear grandes construcciones en equipo,
+  vivir épicas aventuras o colaborar para derrotar a los jefes más duros del juego. En este artículo, te mostraremos cómo jugar en modo multijugador en un servidor, tanto en Bedrock Edition como en Java Edition.
+  Existen distintos tipos de servidor a los que unirse. Los servidores LAN ("red de área local") te permiten jugar con gente conectada a la misma red que tú; por otro lado, 
+  en los servidores en línea podrás jugar con cualquier persona de cualquier lugar del mundo. El servicio Minecraft Realmsque ofrecemos te permite configurar tu propio servidor en línea al que tus amigos podrán conectarse de forma fácil y rápida.
+  Para acceder al modo multijugador tendrás que iniciar sesión con una cuenta de Microsoft. Visita la guía de creación de cuenta si necesitas ayuda con esto.
+  <ul><h2>Tabla de contenido</h2></ul>
+  <li>Cómo conectarse a un servidor en Bedrock Edition</li>
+  <li>Cómo hospedar un servidor en Bedrock Edition</li> 
+  <li>Cómo conectarse a un servidor en Java Edition</li> 
+  <li>Cómo hospedar un servidor LAN en Java Edition</li>  
+  <li>Cómo mantenerse a salvo en un servidor </li> 
+  <li>Cómo conectarse a un servidor en Bedrock Edition</li> 
+  <li>Para conectarte a un servidor en Bedrock Edition, inicia Minecraft y pulsa"Jugar" en el menú principal. Esto te llevará a una pantalla con tres pestañas: "Mundos", "Amigos" y "Servidores".</li></p>
+      <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3JDGswxtnbqXeQi7BOy3WOGEPqHrYdWNs6g&s" alt="Guía Minecraft" style="width:30%; border-radius:10px;"/>
+      <p>Si lo que quieres es jugar con tus amigos, pulsa la pestaña "Amigos". Aparecerá una pantalla en la que podrás ver de qué Realms formas parte y qué amigos están jugando a Minecraft en este momento. Para añadir a un amigo, pídele su gamertag y pulsa el botón "Añadir amigo".
+         Escríbelo y dale a introducir: buscará a la persona para que puedas añadirla.</p>
+      <img src= "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8d/Game_settings_%28BE%2C_new_UI%29.png/revision/latest?cb=20220128131409" alt="Guía Minecraft" style="width:30%; border-radius:10px;"/>   
+      <p>Si uno de los amigos con los que quieres jugar cuenta con una suscripción a Minecraft Realms también podrás usar esta pantalla para unirte a su Realm. Pídele un código de invitación al Realm, pulsa el botón "Unirse a Realm" y escribe el código.
+     Así se añadirá el Realm a tu lista de amigos y podrás acceder en cualquier momento.</p>
+    <img src= "https://cdn.apexminecrafthosting.com/img/uploads/2021/10/04182611/multiplayer.png" alt="Guía Minecraft" style="width:30%; border-radius:10px;"/>
+    <P>Al entrar te saldra mas menus en la cual puedes modificar la modalidad del juego asiendo que puedas estar en Supervivencia y pasarte el juego consiguiendo cosas con experiencia el otro apartado esta Modo Creativo en la cual esta modalidad te miuchas ventajas que puedes abrir el inventario y que puedes utilizar todos los bloques, mecanismos, suministros, etc.</p>
+     <br>
+      <img src="https://www.myplaycity.com/i/reviews/minecraft_en_screenshot_3.jpg" alt=" " style="width:60; border-radius: 20px;"/>
+    <p>Al entrar al mundo tendras varios botones lo cual es facil de poder explicartelo
+      <ul>
+        <li>La flecha asi arriba es para caminar.</li>
+        <li>Flecha hacia abajo es para retroceder.</li>
+        <li>Flecha de lado y lado son para ir a la derecha o izquierda.</li>
+        <li>Boton de en medio sirve para agacharte.</li>
+        <li>Boton de lado izquierdo superiodr izquierda abajo es para saltar.</li>
+        <li>En la pantall Aparecerá un circulo transparente y borde blanco que sirve para romper bloques o ya sea una curz en medio en la cual hace el mismo funcionamiento y con ese tambien puedes mover la camara de lado a lado.</li>
+      </ul>
+    </p>
+    <br>
+    <img src="https://i.ytimg.com/vi/gimGbR04HY8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB3tOkZKvZHtpcMoWbnFsglQXyA7A" alt=" " style="width: 315px; border-radius: 10px;"/>
+    </div>
+
+    <div id="skins" class="section">
+      <h1>Skins</h1>
+      <div class="grid">
+        <div class="card">
+          <img src="https://p.novaskin.me/5026444956.png" alt="Skin 1" />
+          <p>Skin Criminal Azul</p>
+          <a href="#" ></a> 
+        </div>
+        <div class="card">
+          <img src="https://s.namemc.com/3d/skin/body.png?id=b17bf70d582c0ec6&model=slim&width=308&height=308" alt="Skin 2" height="340"/>
+          <p>Skin scare movie</p>
+          <br>
+          <a href="#" ></a> 
+        </div>
+        <div class="card">
+          <img src="https://s.namemc.com/3d/skin/body.png?id=a408edaefa9cf7da&model=classic&width=308&height=308" alt="Skin 3"height="340" />
+          <p>Skin halo</p>
+          <br>
+          <a href="#" ></a> 
+        </div>
+         <div class="card">
+          <img src="https://s.namemc.com/3d/skin/body.png?id=86c601d19dd7419a&model=classic&width=308&height=308" alt="Skin 4" height="340"/>
+          <p>Skin mordekai</p>
+          <br>
+          <a href="#" ></a> 
+        </div>
+         <div class="card">
+          <img src="https://i.pinimg.com/236x/b2/63/34/b2633418c3ca5a750b83ea50cfac4f2d.jpg" alt="Skin 5" height="340"/>
+          <p>Skin Monkey D. Luffy</p>
+          <a href="#" ></a> 
+        </div>
+         <div class="card">
+          <img src="https://p.novaskin.me/5806223064.png?class=thumbnail" alt="Skin 6" />
+          <p>Skin Roronoa zoro</p>
+          <a href="#" ></a> 
+        </div>
+         <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBo6UWs3XtLy-Nz6EdoIkhWs27RTN-FX2Z5A&s" alt="Skin 7" height="340" />
+          <p>Skin Totoro</p>
+          <br>
+          <a href="#" ></a> 
+        </div>
+      </div>
+    </div>
+    <div id="construcciones" class="section">
+      <h2>Construcciones</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/cZcOrWqqF_8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCG7CD2EZUDecS0txMgBSt9-6RXTA" alt="Casa Moderna" />
+          <p>Casa Moderna</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cZcOrWqqF_8?si=-8fgsEPJymsOXS8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/sp0XZX391Mk/maxresdefault.jpg" alt="Castillo Medieval" width="100%" />
+          <p>Castillo Medieval</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/sp0XZX391Mk?si=AEFSwS1Q2dCC3U1O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTQ2QZkOUd4dAfHplomInrdfwC_qGfTSemsQ&s" alt="Casa Árbol" />
+          <p>Casa Árbol</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7B-KrBgOPqU?si=XhkjhPGZcmqRZZZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/IsiVNiP28Zo/maxresdefault.jpg" alt="Castillo Medieval" width="100%" />
+          <p>Casa cueva</p>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/IsiVNiP28Zo?si=1NKip05J4eTqt4Lj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoCGJjHQQWZZjr0OYQy3ZEM1v672uvl4Griw&s" alt="Castillo Medieval" width="100%" />
+          <p>Casa debajo del agua</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/S_Qq5w6TR3M?si=UTCJHhQcDWN3cgZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1DYxx7p2_JEwPVSmScOGjn1T93Z-zUR5NHw&s" alt="Castillo Medieval" width="100%" />
+          <p>Casa en el cielo</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/uwgvmkqJraw?si=DOAMWE5tcrpW296v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mecanismos" class="section">
+      <h2>Mecanismos de Redstone</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP54lg5ZSCHdPnms70xwuOYIk0ew6ez-yrYA&s"alt="Puerta Automática" />
+          <p>Puerta Automática con pistones</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bHWqhRen3HQ?si=fwAxDcqZGm-OLnH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/LQsYgfMnBlE/maxresdefault.jpg" alt="Ascensor" />
+          <p>generador caña de azucar</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LQsYgfMnBlE?si=4YA1v6H6P0AkVYX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/rlVZK8PBWDk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAF0b10xpjBRzIHKxEYqvI65j9MTg" alt="Trampa" />
+          <p>Recolector de cultivos</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rlVZK8PBWDk?si=Va5l8jGGN33ZN7pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/4UBxjGeYoRc/maxresdefault.jpg"alt="Trampa" />
+          <p>Dispensador de comida</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4UBxjGeYoRc?si=QrDiqP27VTyxiVQ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/qLmT8mvDevs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCnV4lTpSj08Jzg1TjgvDC6Jdlfdw" alt="Trampa" />
+          <p>Granja de oro</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/qLmT8mvDevs?si=agge7O3aTAU3nr-W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="card">
+          <img src="https://i.ytimg.com/vi/5uNpVc4jfEI/maxresdefault.jpg" alt="Trampa" />
+          <p>Elevador</p>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/5uNpVc4jfEI?si=1vtdeD6N1hpOdZsB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
+
+
